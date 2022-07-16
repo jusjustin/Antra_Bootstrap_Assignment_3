@@ -1,0 +1,68 @@
+.content .lightgreenBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    display: block;
+    width: 98.5%;
+    height: 1975px;
+    background: white;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.content .greyBox{
+    position: absolute;
+    top: 305px;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    display: block;
+    width: 98.5%;
+    height: 50px;
+    background: gray;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.content .navMenu{
+    position: absolute;
+    top: 365px;
+    left: 50px;
+    z-index: 0;
+    display: block;
+    width: 98.5%;
+    height: 50px;
+    float: left;
+    margin: 15px;
+    overflow: hidden;
+}
+.content .navMenu button{
+    margin-right: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.content .navMenu button:hover{
+    background-color: lightgray;
+}
+.content .footer{
+    position: absolute;
+    top: 400px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    display: block;
+    width: 98.5%;
+    height: 170%;
+    float: left;
+    margin: 15px;
+    overflow: hidden;
+}
